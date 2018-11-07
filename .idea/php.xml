@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-smartypants" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/mos/cimage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/anax/request" />
+      <path value="$PROJECT_DIR$/vendor/anax/cache" />
+      <path value="$PROJECT_DIR$/vendor/anax/controller" />
+      <path value="$PROJECT_DIR$/vendor/anax/di" />
+      <path value="$PROJECT_DIR$/vendor/anax/session" />
+      <path value="$PROJECT_DIR$/vendor/anax/anax-lite" />
+      <path value="$PROJECT_DIR$/vendor/anax/textfilter" />
+      <path value="$PROJECT_DIR$/vendor/anax/configure" />
+      <path value="$PROJECT_DIR$/vendor/anax/commons" />
+      <path value="$PROJECT_DIR$/vendor/anax/content" />
+      <path value="$PROJECT_DIR$/vendor/anax/url" />
+      <path value="$PROJECT_DIR$/vendor/anax/anax-design-me" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/anax/view" />
+      <path value="$PROJECT_DIR$/vendor/anax/router" />
+      <path value="$PROJECT_DIR$/vendor/anax/response" />
+      <path value="$PROJECT_DIR$/vendor/anax/anax-flat" />
+      <path value="$PROJECT_DIR$/vendor/anax/page" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+</project>
