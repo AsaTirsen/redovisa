@@ -3,6 +3,7 @@ views:
     kursrepo:
         region: sidebar-right
         template: anax/v2/block/default
+        sort: 1
         data:
             meta: 
                 type: single
@@ -11,18 +12,20 @@ views:
     redovisa:
         region: sidebar-right
         template: anax/v2/block/default
+        sort: 2
         data:
             meta: 
                 type: single
-                route: block/om-redovisa
+                route: block/om-redovisa      
 ---
 Om
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Syftet med kursen design, är om jag har förstått rätt, att lära sig hantera CSS och att jobba i ett
+ramverk, samt att bekanta sig med Markdown. 
 
 Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=img/aboutimg.jpg caption="Händer på keyboard."]

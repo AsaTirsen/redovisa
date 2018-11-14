@@ -1,3 +1,2 @@
-#### Footer col 2
-
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+#### Visdomsord i brist på bättre
+Det som göms i snö kommer upp i tö

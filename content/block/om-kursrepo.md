@@ -1,3 +1,5 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+I den här kursern får en lära sig mer om CSS och att jobba 
+i ett ramverk som Markdown. här kan du läsa mer:
+ [Länk till kursens hemsida](https://dbwebb.se/kurser/design-v2) och till [kursrepot på GitHub](https://github.com/dbwebb-se/design).
