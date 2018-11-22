@@ -1,0 +1,67 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1132px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 10%;
+  }
+
+  .region-header-col-2 {
+    width: 80%;
+  }
+
+  .rm-navbar a {
+    padding: 0.1em;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .rm-desktop {
+    display: none;
+  }
+
+  .inner-wrap-main {
+    width: 100%;
+  }
+
+  .site-byline {
+    display: none;
+  }
+
+  h1, h4 {
+    font-size: 100%;
+  }
+
+  .region-main,
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .region-sidebar-left {
+    width: 100%;
+  }
+
+  .region-sidebar-right {
+    width: 100%;
+  }
+
+  .footer-column-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    padding: 5px;
+    height: auto;
+  }
+}

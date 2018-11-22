@@ -49,7 +49,7 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Testa Markdown",
+            "text" => "Testa",
             "url" => "test",
             "title" => "Lek runt med Markdown.",
         ],

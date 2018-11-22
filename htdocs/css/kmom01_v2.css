@@ -1,0 +1,455 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+/*.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02
+.rm-navbar-max {
+    display: none;
+}
+*/
+/*html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.4;
+    color: #333;
+    background-color: #fffefc;
+}*/
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 3.5rem;
+  /* baseline * 2, för att skapa mer utrymme */
+}
+p {
+  font-size: 1.25em;
+  margin-bottom: 1.75rem;
+  /* 1.4 * 1.25em vår baseline */
+}
+/*responsitivity*/
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+/*
+.site-logo {
+    display: none;
+}
+
+.region-header {
+    width: 100%;
+}
+
+.region-header-col-1 {
+    width: 100px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+}
+
+/*.site-logo-text {
+    padding: 2em;
+    float: left;
+    overflow: auto;
+}*/
+/*
+.region-header-col-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* style for navbar*/
+/*.my-navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+    border: solid black 1px;
+    color: black;
+}
+
+/*style for main*/
+/*.outer-wrap-main {
+    background-color: #fffefc;
+}
+
+.inner-wrap-main {
+    margin: auto;
+    width: 960px;
+}
+
+/*style to center flash image (dandelion)*/
+/*.region-flash img {
+    margin: auto;
+    display: block;
+}
+
+/* style for row including clear fix*/
+.row::after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+/*includes article and wrap sidebar / to display aligned */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/*.region-breadcrumb {
+    float: left;
+    text-align: left;
+}
+.breadcrumb-list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.breadcrumb-list li a {
+    text-decoration: none;
+    float: left;
+    text-align: left;
+}*/
+.next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.article {
+  float: left;
+  width: auto;
+  clear: both;
+  margin-right: 10em;
+}
+.block-toc {
+  padding-right: 5em;
+  float: top;
+}
+.wrap-sidebar {
+  float: top;
+  width: 400px;
+  clear: both;
+}
+/*style for portrait*/
+.figure {
+  float: left;
+  width: 300px;
+  clear: both;
+}
+figcaption {
+  font-size: small;
+  font-style: italic;
+}
+/* Style for byline*/
+.site-byline {
+  float: left;
+  border: 1px solid black;
+  padding: 5px;
+  clear: both;
+  margin-top: 5em;
+  overflow: auto;
+}
+.byline-pic {
+  float: left;
+  margin: 5px;
+}
+/*.outer-wrap-footer {
+    background-color: #ccc9c3;
+    margin-top: 10em;
+}
+
+.inner-wrap-footer {
+    margin: auto;
+    width: 960px;
+    height: 350px;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-column {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+.block.site-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    height: 120px;
+    text-align: center;
+}
+*/
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #fffefc;
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fffefc;
+  font: 100.01%/1 serif;
+  line-height: 1.4;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/* responsive/mobile menu*/
+/*.rm-desktop ul {
+    display: none;
+}
+
+/* responsive/mobile menu*/
+/*.rm-navbar-max {
+    display: none;
+}*/
+/*.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}*/
+/*style for main*/
+.outer-wrap-main {
+  background-color: #fffefc;
+}
+.inner-wrap-main {
+  overflow: auto;
+  width: 60%;
+  margin: auto;
+}
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  overflow: auto;
+}
+.region-main {
+  width: 60%;
+  float: left;
+  overflow: auto;
+  display: block;
+  padding-left: 20%;
+}
+.region-main.has-sidebar {
+  padding-left: 10%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  width: 60%;
+}
+.region-sidebar-right,
+.region-sidebar-left {
+  width: 20%;
+  float: left;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+  float: left;
+}
+/*style to center flash image (dandelion)*/
+.region-flash img {
+  margin: auto;
+  display: block;
+  padding-top: 5em;
+}
+/*style for portrait*/
+.figure {
+  float: left;
+  clear: both;
+}
+figcaption {
+  font-size: small;
+  font-style: italic;
+}
+.outer-wrap-footer {
+  background-color: #ccc9c3;
+  margin-top: 10em;
+}
+.inner-wrap-footer {
+  margin: auto;
+  width: 70%;
+  height: 350px;
+}
+.footer-column-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.footer-column {
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
+.block.site-footer {
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  height: 120px;
+  text-align: center;
+}
+fieldset {
+  width: 80%;
+  color: #333333;
+}
+.route-style .inner-wrap-main {
+  width: 80%;
+}
+.route-style .region-main {
+  width: 100%;
+  padding: 0;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1132px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 10%;
+  }
+  .region-header-col-2 {
+    width: 80%;
+  }
+  .rm-navbar a {
+    padding: 0.1em;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 696px) {
+  .rm-desktop {
+    display: none;
+  }
+  .inner-wrap-main {
+    width: 100%;
+  }
+  .site-byline {
+    display: none;
+  }
+  h1,
+  h4 {
+    font-size: 100%;
+  }
+  .region-main,
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .region-sidebar-left {
+    width: 100%;
+  }
+  .region-sidebar-right {
+    width: 100%;
+  }
+  .footer-column-wrapper {
+    flex-direction: column;
+  }
+  .footer-column {
+    padding: 5px;
+    height: auto;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/*Set default variables here for bg color etc from base.less */
+/**
+ * My own settings, not currently in their own module.
+ */

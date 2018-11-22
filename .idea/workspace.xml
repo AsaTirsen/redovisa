@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="965cbf65-91fb-4c3a-9d92-b20bd589c3ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/htdocs/router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/navbar/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navbar/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/navbar/plain.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navbar/plain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/navbar/responsive.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/navbar/responsive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/.meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/.meta.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/footer-col-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/footer-col-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/footer-col-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/footer-col-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/footer-col-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/footer-col-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/footer.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/footer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/om-kursrepo.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/om-kursrepo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/block/om-redovisa.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/block/om-redovisa.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/om.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/om.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/redovisning/.meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/redovisning/.meta.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/redovisning/01_kmom01.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/redovisning/01_kmom01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/verktyg/.meta.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/verktyg/.meta.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htdocs/css/kmom01.css" beforeDir="false" afterPath="$PROJECT_DIR$/htdocs/css/kmom01.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/redovisning/02_kmom02.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/redovisning/02_kmom02.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,22 +20,25 @@
     <session id="-1185384442">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Makefile" value="1" />
           <entry key="bash" value="1" />
-          <entry key="css" value="11" />
-          <entry key="gitignore" value="1" />
+          <entry key="css" value="38" />
+          <entry key="gitignore" value="2" />
           <entry key="htaccess" value="5" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="5" />
-          <entry key="md" value="93" />
-          <entry key="php" value="95" />
+          <entry key="less" value="62" />
+          <entry key="md" value="114" />
+          <entry key="php" value="99" />
           <entry key="png" value="5" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
@@ -59,11 +47,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="38" />
           <entry key="Image" value="11" />
-          <entry key="Markdown" value="93" />
-          <entry key="PHP" value="95" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Less" value="62" />
+          <entry key="Markdown" value="114" />
+          <entry key="PHP" value="99" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
           <entry key="htaccess" value="5" />
@@ -71,18 +60,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3548" />
+          <entry key="css" value="3553" />
           <entry key="gitignore" value="11" />
           <entry key="htaccess" value="45" />
-          <entry key="md" value="4701" />
+          <entry key="less" value="2022" />
+          <entry key="md" value="8758" />
           <entry key="php" value="252" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3548" />
-          <entry key="Markdown" value="4701" />
+          <entry key="CSS" value="3553" />
+          <entry key="Less" value="2022" />
+          <entry key="Markdown" value="8758" />
           <entry key="PHP" value="252" />
           <entry key="PLAIN_TEXT" value="43" />
           <entry key="htaccess" value="45" />
@@ -100,87 +91,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/page.php">
+        <entry file="file://$PROJECT_DIR$/theme/src/layout/layout.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="495">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/redovisning/01_kmom01.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="645">
-                <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2595">
+              <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/htdocs/css/kmom02.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/src/base/base.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/src/layout/layout_kmom02.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/src/module/kmom01.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1183">
+              <caret line="213" column="28" selection-start-line="213" selection-start-column="28" selection-end-line="213" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/src/layout/responsive.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-50">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/block/om-redovisa.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/session.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/url.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/view.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/redovisning/.meta.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/verktyg/140_stylevaljare.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-178" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/di/page.php">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/di/view.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme/src/kmom02.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="17" selection-start-line="16" selection-start-column="1" selection-end-line="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -188,7 +177,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ANAX</find>
+      <find>lessc</find>
+      <find>min.css</find>
+      <find>kmom01</find>
+      <find>cp</find>
+      <find>build/</find>
+      <find>theme:</find>
+      <find>red</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/htdocs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,11 +203,9 @@
         <option value="$PROJECT_DIR$/content/verktyg/.meta.md" />
         <option value="$PROJECT_DIR$/content/redovisning/.meta.md" />
         <option value="$PROJECT_DIR$/config/navbar/plain.php" />
-        <option value="$PROJECT_DIR$/config/navbar/header.php" />
         <option value="$PROJECT_DIR$/config/navbar/responsive.php" />
         <option value="$PROJECT_DIR$/htdocs/index.php" />
         <option value="$PROJECT_DIR$/htdocs/router.php" />
-        <option value="$PROJECT_DIR$/content/index.md" />
         <option value="$PROJECT_DIR$/content/.meta.md" />
         <option value="$PROJECT_DIR$/content/test.md" />
         <option value="$PROJECT_DIR$/content/om.md" />
@@ -220,8 +217,21 @@
         <option value="$PROJECT_DIR$/content/block/byline.md" />
         <option value="$PROJECT_DIR$/content/block/footer.md" />
         <option value="$PROJECT_DIR$/config/page.php" />
-        <option value="$PROJECT_DIR$/content/redovisning/01_kmom01.md" />
         <option value="$PROJECT_DIR$/htdocs/css/kmom01.css" />
+        <option value="$PROJECT_DIR$/content/redovisning/01_kmom01.md" />
+        <option value="$PROJECT_DIR$/content/index.md" />
+        <option value="$PROJECT_DIR$/theme/src/base/base_default.less" />
+        <option value="$PROJECT_DIR$/theme/src/module/kmom01.less" />
+        <option value="$PROJECT_DIR$/theme/src/kmom01_v2.less" />
+        <option value="$PROJECT_DIR$/theme/src/layout/layout_default.less" />
+        <option value="$PROJECT_DIR$/theme/src/kmom02.less" />
+        <option value="$PROJECT_DIR$/config/navbar/header.php" />
+        <option value="$PROJECT_DIR$/content/redovisning/02_kmom02.md" />
+        <option value="$PROJECT_DIR$/theme/src/base/base.less" />
+        <option value="$PROJECT_DIR$/theme/src/layout/layout.less" />
+        <option value="$PROJECT_DIR$/theme/src/layout/layout_kmom02.less" />
+        <option value="$PROJECT_DIR$/theme/src/layout/responsive.less" />
+        <option value="$PROJECT_DIR$/htdocs/css/kmom02.css" />
       </list>
     </option>
   </component>
@@ -230,6 +240,14 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/theme/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/theme/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
@@ -266,9 +284,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1195" />
+    <option name="x" value="170" />
     <option name="y" value="23" />
-    <option name="width" value="1261" />
+    <option name="width" value="2093" />
     <option name="height" value="1276" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -293,7 +311,30 @@
             <path>
               <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
               <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="di" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
@@ -334,17 +375,207 @@
               <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
               <item name="redovisa" type="462c0819:PsiDirectoryNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="cimage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
               <item name="redovisa" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom01_v2.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom02.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="webfonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StyleChooser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom01_v2.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom02.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom01_v2.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="kmom02.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="@desinax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
               <item name="redovisa" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="anax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="anax" type="462c0819:PsiDirectoryNode" />
+              <item name="stylechooser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redovisa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redovisa" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="anax" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,13 +590,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/htdocs/img" />
-      <recent name="$PROJECT_DIR$/../../../htmlphp/me/kmom05/me5/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/htdocs/img/theme" />
       <recent name="$PROJECT_DIR$/htdocs/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/theme/src" />
+      <recent name="$PROJECT_DIR$/theme/src/layout" />
+      <recent name="$PROJECT_DIR$/theme/src/base" />
+      <recent name="$PROJECT_DIR$/htdocs/img" />
+      <recent name="$PROJECT_DIR$/../../../htmlphp/me/kmom05/me5/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,19 +630,20 @@
       <option name="presentableId" value="Default" />
       <updated>1541509692969</updated>
       <workItem from="1541509694177" duration="1497000" />
-      <workItem from="1541511220529" duration="53567000" />
+      <workItem from="1541511220529" duration="56194000" />
+      <workItem from="1542364103218" duration="38760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55064000" />
+    <option name="totallyTimeSpent" value="96451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1527" y="27" width="1261" height="1276" extended-state="0" />
+    <frame x="170" y="23" width="2093" height="1276" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29040197" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17552413" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="1" weight="0.3299363" />
@@ -416,9 +651,9 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5004102" side_tool="true" weight="0.3293919" />
       <window_info anchor="bottom" id="Messages" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.3310811" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49958983" visible="true" weight="0.3293919" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49958983" weight="0.3293919" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -479,66 +714,67 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/index.md">
+    <entry file="file://$PROJECT_DIR$/config/url.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/verktyg/140_stylevaljare.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/om.md">
+    <entry file="file://$PROJECT_DIR$/theme/build/less/css/kmom01_v2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01_v2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../htmlphp/me/kmom04/me4/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../htmlphp/me/kmom03/me3/view/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
-          <folding>
-            <element signature="e#976#982#0#HTML" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/theme/REVISION.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="409" column="33" selection-start-line="409" selection-start-column="33" selection-end-line="409" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/build/less/css/kmom01_v2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/base/base_default.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/@desinax/responsive-menu/less/media-queries.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/content/redovisning/00_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/demo/main-sidebar-left.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/demo/main-sidebar-right.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/demo/main-three-columns.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -554,54 +790,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/120_shortcode.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/110_markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/block/byline.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/block/om-kursrepo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../htmlphp/me/kmom04/me4/view/footer.php">
+    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01_v2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="113">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/block/footer.md">
+    <entry file="file://$PROJECT_DIR$/theme/build/less/css/kmom02.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/module/module_sample.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/htdocs/css/kmom01_v2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/htdocs/css/kmom02.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/navbar/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -610,86 +837,32 @@
     <entry file="file://$PROJECT_DIR$/content/.meta.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-column="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/demo/main.md">
+    <entry file="file://$PROJECT_DIR$/content/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="465">
-            <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <first_editor relative-caret-position="420">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/configuration.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/request.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/cache.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/response.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/router.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/session.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/textfilter.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/url.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+    <entry file="file://$PROJECT_DIR$/content/om.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/navbar/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/navbar/plain.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/400_style-chooser.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/500_content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/600_development.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/700_example.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/800_test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/900_internal.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router/README.md">
+    <entry file="file://$PROJECT_DIR$/content/block/om-kursrepo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -697,61 +870,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cache.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/configuration.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/navbar.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+    <entry file="file://$PROJECT_DIR$/content/block/footer-col-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/session.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/url.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/content/block/footer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/view.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/redovisning/.meta.md">
+    <entry file="file://$PROJECT_DIR$/content/verktyg/demo/main-three-columns.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <first_editor relative-caret-position="-491" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/verktyg/200_kmom02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/verktyg/140_stylevaljare.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-178" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/di/page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -759,7 +911,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/redovisning/.meta.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -768,19 +930,116 @@
     <entry file="file://$PROJECT_DIR$/content/redovisning/01_kmom01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="645">
-            <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <first_editor relative-caret-position="660">
+            <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01.css">
+    <entry file="file://$PROJECT_DIR$/theme/src/module/stylechooser.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/responsive_default.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/kmom01_v2.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/htdocs/css/kmom02.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/build/less/css/kmom02.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom02.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/layout_default.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/regions.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/redovisning/02_kmom02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="555">
+            <caret line="37" column="95" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/base/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/layout_kmom02.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/layout/responsive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/module/kmom01.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1183">
+          <caret line="213" column="28" selection-start-line="213" selection-start-column="28" selection-end-line="213" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/src/kmom02.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="17" selection-start-line="16" selection-start-column="1" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htdocs/css/kmom02.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/di/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/di/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,0 +1,134 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+/**
+ * General layout
+ */
+/* responsive/mobile menu*/
+
+/*.rm-desktop ul {
+    display: none;
+}
+
+/* responsive/mobile menu*/
+/*.rm-navbar-max {
+    display: none;
+}*/
+
+/*style for main*/
+.outer-wrap-main {
+  background-color: #fffefc;
+}
+
+.inner-wrap-main {
+  overflow: auto;
+  width: 60%;
+  margin: auto;
+}
+// 2 and 3 column style
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  overflow: auto
+}
+
+.region-main {
+  width: 60%;
+  float: left;
+  overflow: auto;
+  display: block;
+  padding-left: 20%;
+
+  &.has-sidebar {
+    padding-left: 10%;
+  }
+
+  &.has-sidebar-left.has-sidebar-right {
+    width: 60%;
+  }
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+  width: 20%;
+  float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+  float: left;
+}
+
+/*style to center flash image (dandelion)*/
+.region-flash img {
+  margin: auto;
+  display: block;
+  padding-top: 5em;
+}
+
+/*style for portrait*/
+.figure {
+  float: left;
+  clear: both;
+}
+
+figcaption {
+  font-size: small;
+  font-style: italic;
+}
+// Style footer
+.outer-wrap-footer {
+  background-color: #ccc9c3;
+  margin-top: 10em;
+}
+
+.inner-wrap-footer {
+  margin: auto;
+  width: 70%;
+  height: 350px;
+}
+
+.footer-column-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer-column {
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
+
+.block.site-footer {
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  height: 120px;
+  text-align: center;
+}
+
+//Style for stylechooser
+fieldset {
+  width: 80%;
+  color: #333333;
+}
+
+.route-style {
+  .inner-wrap-main {
+    width: 80%;
+  }
+  .region-main {
+    width: 100%;
+    padding: 0;
+  }
+}
