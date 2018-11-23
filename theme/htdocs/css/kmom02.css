@@ -4377,10 +4377,6 @@ img {
 /*.rm-navbar-max {
     display: none;
 }*/
-/*.inner-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-}*/
 /*style for main*/
 .outer-wrap-main {
   background-color: #fffefc;
@@ -4475,19 +4471,9 @@ fieldset {
 .site-logo {
   display: none;
 }
-.outer-wrap-header::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .inner-wrap-header {
   max-width: 100%;
 }
-/*.site-logo-text {
-    padding: 2em;
-    float: left;
-    overflow: auto;
-}*/
 .region-header-col-1,
 .region-header-col-3 {
   width: 20%;
