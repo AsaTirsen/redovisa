@@ -1,0 +1,100 @@
+//Style using vertical grid
+// Default grid, change to fit your requirements.
+@columnWidth:   30;
+@gutterWidth:   10;
+@columns:       24;
+@gridType:      "float"; // "flex"
+// Use % for fluid layout
+@totalWidth: 100% / @gridSystemWidth;
+@gridSystemWidth: @columns * (@columnWidth + @gutterWidth) * 1px;
+
+.row {
+  #desinax-vgrid.row();
+
+  //background-color: #0f0;
+  margin-bottom: 12px;
+}
+
+.vgrid .inner-wrap {
+  @gridImage: "../img/grid_24x30x10-nomargin.png";
+  //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+  #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+  &.inner-wrap-header{
+    #desinax-vgrid.showGrid(@gridImage);
+  }
+}
+
+.inner-wrap {
+  //overflow: auto;
+  //width: 60%;
+  //argin: auto;
+  #desinax-vgrid.grid(1100px); //wrapper for entire grid
+  //.inner-wrap-header,
+  //.inner-wrap-footer {
+  //#desinax-vgrid.grid(100%);
+  //}
+}
+
+// 2 and 3 column style
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  //overflow: auto
+}
+
+.region-main {
+  margin-top: (@magicNumber * 5);
+  float: left;
+  overflow: auto;
+  min-height: (@magicNumber * 30);
+  //padding-left: 20%;
+  #desinax-vgrid.column(@columns * 3/4);
+  #desinax-vgrid.push(2);
+
+  &.has-sidebar {
+    #desinax-vgrid.push(0);
+  }
+
+  &.has-sidebar-right {
+    #desinax-vgrid.column(@columns * 3 / 4 - 1);
+  }
+
+  &.has-sidebar-left.has-sidebar-right {
+    #desinax-vgrid.column(@columns - 10);
+  }
+}
+
+.region-sidebar-right {
+  #desinax-vgrid.push(1);
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+  #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  #desinax-vgrid.column(@columns * 1 / 4 - 1);
+
+}
+
+p {
+  margin-bottom: @magicNumber * 2;
+  font-family: @fontFamilyBody;
+}
+
+h1, h2, h3 {
+  font-family: @fontFamilyHeadings;
+}
+
+.route-rapport-fargschema {
+  .figure {
+    float: left;
+  }
+  p {
+    clear: left;
+  }
+}
+

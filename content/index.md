@@ -16,7 +16,7 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/portrait3.jpg" class="right" caption="Bild på mig"]
+[FIGURE src="image/silhouette2.png" class="right" caption="Silhouette av kvinna"]
 
 Detta är min me-sida i kursen. Det är alltid lite svårt att komma på vad en ska skriva om sig själv. 
 Jag är uppvuxen i Göteborg och i Stockholm. Jag har haft lite svårt att bestämma mig för vad jag vill jobba med här i livet

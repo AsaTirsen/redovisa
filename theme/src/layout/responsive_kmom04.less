@@ -1,0 +1,68 @@
+//Responsive 1, 2, 3 columns//
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 14px;
+  }
+
+  .region-main {
+    #desinax-vgrid.column(@columns);
+    margin-left: 2%;
+  }
+
+  .region-sidebar-left {
+    #desinax-vgrid.column(@columns);
+    margin-left: 2%;
+  }
+
+  &.has-sidebar-left.has-sidebar-right {
+    #desinax-vgrid.column(@columns);
+    margin-left: 2%;
+  }
+
+  .region-sidebar-left.has-sidebar-right,
+  .region-sidebar-right.has-sidebar-left {
+    #desinax-vgrid.column(@columns);
+    margin-left: 2%;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: 12px;
+  }
+
+  .region-main {
+    #desinax-vgrid.column(@columns * 4 / 5);
+    margin-left: 2%;
+  }
+
+  .region-sidebar-left {
+    margin-left: 2%
+  }
+
+  .region-main.has-sidebar-right {
+    #desinax-vgrid.column(@columns);
+    // #desinax-vgrid.push(0);
+    margin-left: 2%
+  }
+
+  .region-sidebar-right {
+    #desinax-vgrid.column(@columns);
+    #desinax-vgrid.push(0);
+    margin-left: 2%;
+  }
+
+  .footer-column {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-column {
+    #desinax-vgrid.column(@columns);
+  }
+  .site-footer {
+    margin-left: 4%;
+  }
+}

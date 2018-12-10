@@ -1,0 +1,66 @@
+/*!
+ * colorful version of kmom04
+ *
+ * This stylesheet is for the design course and kmom04.
+ */
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Domine|Gilda+Display|Nanum+Myeongjo|Old+Standard+TT|Princess+Sofia');
+
+@bgColorBody: #eff76c;
+@colorBody: #e1efef;
+@textColor: #333;
+@fontSizeBody: 16px;
+@fontFamilyHeadings: "Princess Sofia", serif;
+@fontFamilyBody: "Domine", serif;
+@backgroundColorFooter: #6ceff7;
+@backgroundColorHeader: #f76cef;
+
+span.site-logo-text a {
+  color: @textColor;
+}
+
+.outer-wrap-footer {
+  background-color: @backgroundColorFooter;
+}
+
+.toc li {
+  list-style: none;
+  a {
+    text-decoration-line: none;
+    color: @textColor;
+  }
+}
+
+.block.toc h4 {
+  padding-left: 1em;
+}
+
+
+.block a {
+  color: @textColor;
+}
+.breadcrumb-list a {
+  color: @textColor;
+}
+
+.region-flash img{
+  display: none;
+}
+
+.next-previous a {
+  color: @textColor;
+}
+
+.outer-wrap-header {
+  background-color: @backgroundColorHeader;
+}
+
+.region-main {
+  padding-left: 1em;
+}

@@ -37,7 +37,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
+                "siteLogo"      => "image/theme/catimage2.png",
                 "siteLogoAlt"   => "Löv",
             ],
         ],
@@ -47,8 +47,8 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoTextIcon" => "image/theme/catimage2.png",
+                "siteLogoTextIconAlt" => "kattbild",
             ],
         ],
         [
