@@ -31,7 +31,7 @@ Resultat
 
 ###Fredells färgskala:
 
-[FIGURE src="img/Fredells3.png" caption="Screenshot av Fredells hemsida"]
+[FIGURE src="img/fredells3.png" caption="Screenshot av Fredells hemsida"]
 
 <p>Fredells använder en vit sida (fff) med grå footer (f5f5f5)med övervägande blått som accentfärg. 
 

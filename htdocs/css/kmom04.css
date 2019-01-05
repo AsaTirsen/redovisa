@@ -4400,6 +4400,9 @@ body {
   color: #333;
   font: 16px/1.5 'Helvetica Neue', 'sans serif';
 }
+img {
+  max-width: 100%;
+}
 h1,
 h2,
 h3,
@@ -4441,7 +4444,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4451,7 +4454,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4460,8 +4463,8 @@ h4 {
   font-size: 1.5em;
   line-height: 1;
   font-weight: normal;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #eee;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4470,7 +4473,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4479,7 +4482,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5028,6 +5031,32 @@ h3 {
 .route-rapport-fargschema p {
   clear: left;
 }
+.route-rapport-laddningstid .figure {
+  float: left;
+}
+.route-rapport-laddningstid p {
+  clear: left;
+}
+.route-blogg .region-main {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.route-blogg .region-main .figure.right {
+  clear: right;
+  margin-left: 50px;
+}
+.route-blogg .region-main .figure.right .figure.left {
+  clear: left;
+}
+.route-blogg .region-main p {
+  clear: left;
+}
+.route-blogg .region-main .text.left {
+  clear: right;
+}
 @media screen and (max-width: 1000px) {
   body {
     font-size: 14px;
@@ -5113,6 +5142,18 @@ h3 {
     margin-left: 4%;
   }
 }
+@media screen and (max-width: 16) {
+  .left.w50,
+  .right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .left.w50 img,
+  .right.w50 img {
+    width: 16;
+  }
+}
 .region-breadcrumb {
   display: inline;
   float: left;
@@ -5190,14 +5231,14 @@ img.bylinepic {
 .region-header-col-3 {
   display: inline;
   float: left;
-  width: 28.125%;
+  width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-header-col-2 {
   display: inline;
   float: left;
-  width: 40.625%;
+  width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
@@ -5213,10 +5254,10 @@ span.site-logo-text a {
   text-decoration-line: none;
   font-family: cursive;
   font-size: 20px;
-  color: #ebe9eb;
+  color: #333;
 }
 /*style for portrait*/
-.figure {
+.route-.figure {
   float: right;
   clear: both;
 }

@@ -2,7 +2,7 @@
 
 chdir(__DIR__);
 
-if (preg_match("@^/image/(.*)$@", $_SERVER["REQUEST_URI"],$matches)) {
+if (preg_match("@^/image/([^?]*)\??.*$@", $_SERVER["REQUEST_URI"],$matches)) {
     $_GET["src"] = $matches[1];
     include "cimage/img.php";
     return;

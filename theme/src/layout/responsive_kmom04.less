@@ -66,3 +66,19 @@
     margin-left: 4%;
   }
 }
+
+&.left,
+&.right {
+  @media screen {
+    @media (max-width: round(@columns * 2 / 3)) {
+      &.w50 {
+        margin-left: 0;
+        margin-right: 0;
+        float: none;
+        img {
+          width: @columns * 2 / 3;
+        }
+      }
+    }
+  }
+}

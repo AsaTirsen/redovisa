@@ -1,0 +1,112 @@
+/*!
+ * LESS version of the stylesheet for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom05.
+ */
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "mixin/clearfix.less";
+
+.clearfix() {
+  #design-mixin.clearfix();
+}
+
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+  @gridImage: "../img/magic-number-@{magicNumber}.png";
+  #desinax-hgrid.showGrid(@gridImage);
+}
+
+// Default font-families
+@fontFamilyHeadings: @fontFamilyGaramond; //"serif";
+@fontFamilyBody:     @fontFamilyHelveticaNeue; //"sans-serif";
+@fontFamilyCode:     @fontFamilyCourier; //"monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base_default.less";
+//@import "base/base.less";
+@import "base/base_kmom04.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+//@import "@desinax/figure/";
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+@import "layout/layout_kmom04.less";
+@import "layout/responsive_kmom04.less";
+@import "module/breadcrumb_kmom04.less";
+@import "module/byline_kmom04.less";
+@import "module/footer_kmom04.less";
+@import "module/header_kmom04.less";
+@import "module/misc_kmom04.less";
+@import "module/image.less";
+
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+//@import "layout/layout_default.less";
+//@import "layout/responsive_default.less";
+//@import "layout/layout.less";
+//@import "layout/layout_kmom02.less";
+//@import "layout/responsive.less";
+//@import "layout/regions.less";     // To add style for ?regions
+
+
+
+
+
+/*Set default variables here for bg color etc from base.less */
+
+/**
+ * My own settings, not currently in their own module.
+ */

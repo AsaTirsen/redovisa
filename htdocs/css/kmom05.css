@@ -1,15 +1,7 @@
 /*!
- * colorful version of kmom04
+ * LESS version of the stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04.
- */
-/**
- * Internal self contained modules, save in directory module/.
- */
-/*!
- * LESS version of the stylesheet for design kmom04.
- *
- * This stylesheet is for the design course and kmom04.
+ * This stylesheet is for the design course and kmom05.
  */
 /**
  * Internal self contained modules, save in directory module/.
@@ -4404,9 +4396,9 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #eff76c;
+  background-color: #fffefc;
   color: #333;
-  font: 16px/1.5 "Domine", serif;
+  font: 16px/1.5 'Helvetica Neue', 'sans serif';
 }
 img {
   max-width: 100%;
@@ -4417,7 +4409,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Princess Sofia", serif;
+  font-family: 'Helvetica Neue', 'sans serif';
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4942,6 +4934,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
 }
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
 .row {
   display: block;
   width: 101.04166667%;
@@ -5026,12 +5027,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 p {
   margin-bottom: 48px;
-  font-family: "Domine", serif;
+  font-family: 'Helvetica Neue', 'sans serif';
 }
 h1,
 h2,
 h3 {
-  font-family: "Princess Sofia", serif;
+  font-family: 'Helvetica Neue', 'sans serif';
 }
 .route-rapport-fargschema .figure {
   float: left;
@@ -5204,7 +5205,7 @@ img.bylinepic {
   margin-top: 384px;
 }
 .outer-wrap-footer {
-  background-color: #6ceff7;
+  background-color: #ccc9c3;
   color: #333;
 }
 .region-footer {
@@ -5250,7 +5251,7 @@ img.bylinepic {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
-  font-family: "Princess Sofia", serif;
+  font-family: 'Helvetica Neue', 'sans serif';
 }
 .site-logo {
   display: none;
@@ -5300,6 +5301,138 @@ figcaption {
 .route-rapport-fargschema p {
   clear: left;
 }
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/*.figure {
+ max-width: 100%;
+}
+*/
+@media screen and (max-width: 16) {
+  .left.w50,
+  .right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .left.w50 img,
+  .right.w50 img {
+    width: 16;
+  }
+}
 /**
  * Import the vertical grid.
  */
@@ -5340,67 +5473,3 @@ figcaption {
 /**
  * My own settings, not currently in their own module.
  */
-@font-face {
-  font-family: 'Domine';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Domine'), local('Domine-Regular'), url(https://fonts.gstatic.com/s/domine/v5/L0x8DFMnlVwD4h3hu_qi.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Gilda Display';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Gilda Display'), local('GildaDisplay-Regular'), url(https://fonts.gstatic.com/s/gildadisplay/v5/t5tmIRoYMoaYG0WEOh7HwMeR3T7Pqg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Nanum Myeongjo';
-  font-style: normal;
-  font-weight: 400;
-  src: local('NanumMyeongjo'), url(https://fonts.gstatic.com/s/nanummyeongjo/v11/9Btx3DZF0dXLMZlywRbVRNhxy2LscnA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Old Standard TT';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v10/MwQubh3o1vLImiwAVvYawgcf2eVeqlq9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Princess Sofia';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Princess Sofia'), local('PrincessSofia'), url(https://fonts.gstatic.com/s/princesssofia/v7/qWczB6yguIb8DZ_GXZst16n7GSz8kjE.ttf) format('truetype');
-}
-span.site-logo-text a {
-  color: #333;
-}
-.outer-wrap-footer {
-  background-color: #6ceff7;
-}
-.toc li {
-  list-style: none;
-}
-.toc li a {
-  text-decoration-line: none;
-  color: #333;
-}
-.block.toc h4 {
-  padding-left: 1em;
-}
-.block a {
-  color: #333;
-}
-.breadcrumb-list a {
-  color: #333;
-}
-.region-flash img {
-  display: none;
-}
-.next-previous a {
-  color: #333;
-}
-.outer-wrap-header {
-  background-color: #f76cef;
-}
-.region-main {
-  padding-left: 1em;
-}
