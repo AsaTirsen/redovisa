@@ -4387,13 +4387,13 @@ template {
   font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQ.ttf) format('truetype');
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v11/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Scheherazade';
   font-style: normal;
   font-weight: 400;
-  src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v15/YA9Ur0yF4ETZN60keViq1kQQsJms.ttf) format('truetype');
+  src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v17/YA9Ur0yF4ETZN60keViq1kQQsJms.ttf) format('truetype');
 }
 html {
   overflow-y: scroll;
@@ -5268,6 +5268,8 @@ span.site-logo-text a {
 .route-.figure {
   float: right;
   clear: both;
+  margin: 0;
+  padding: 0.1px;
 }
 .route-om .figure.figure {
   float: left;
@@ -5344,25 +5346,25 @@ figcaption {
   font-family: 'Domine';
   font-style: normal;
   font-weight: 400;
-  src: local('Domine'), local('Domine-Regular'), url(https://fonts.gstatic.com/s/domine/v5/L0x8DFMnlVwD4h3hu_qi.ttf) format('truetype');
+  src: local('Domine'), local('Domine-Regular'), url(https://fonts.gstatic.com/s/domine/v7/L0x8DFMnlVwD4h3hu_qi.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Gilda Display';
   font-style: normal;
   font-weight: 400;
-  src: local('Gilda Display'), local('GildaDisplay-Regular'), url(https://fonts.gstatic.com/s/gildadisplay/v5/t5tmIRoYMoaYG0WEOh7HwMeR3T7Pqg.ttf) format('truetype');
+  src: local('Gilda Display'), local('GildaDisplay-Regular'), url(https://fonts.gstatic.com/s/gildadisplay/v7/t5tmIRoYMoaYG0WEOh7HwMeR3T7Pqg.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Nanum Myeongjo';
   font-style: normal;
   font-weight: 400;
-  src: local('NanumMyeongjo'), url(https://fonts.gstatic.com/s/nanummyeongjo/v11/9Btx3DZF0dXLMZlywRbVRNhxy2LscnA.ttf) format('truetype');
+  src: local('NanumMyeongjo'), url(https://fonts.gstatic.com/s/nanummyeongjo/v15/9Btx3DZF0dXLMZlywRbVRNhxy2LscnA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Old Standard TT';
   font-style: normal;
   font-weight: 400;
-  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v10/MwQubh3o1vLImiwAVvYawgcf2eVeqlq9.ttf) format('truetype');
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(https://fonts.gstatic.com/s/oldstandardtt/v12/MwQubh3o1vLImiwAVvYawgcf2eVeqlq9.ttf) format('truetype');
 }
 span.site-logo-text a {
   color: #333;

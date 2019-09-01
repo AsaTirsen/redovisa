@@ -1,0 +1,31 @@
+// style byline
+img.bylinepic {
+    float: right;
+    margin: 5px;
+    border: none;
+}
+
+.site-byline {
+    margin-top: @magicNumber * 2;
+    margin-bottom: @magicNumber * 4;
+    #desinax-vgrid.column(@columns - 1);
+    border: 1px solid @textColor;
+    padding: 7px;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0.1px rgba(0, 0, 0, 0.4);
+    background:
+                linear-gradient(135deg, #fffefc 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #fffefc 25%, transparent 25%) -50px 0,
+            linear-gradient(315deg, #fffefc 25%, transparent 25%),
+            linear-gradient(45deg, #fffefc 25%, transparent 25%);
+    background-size: 15px 15px;
+    background-color: #fbede8;
+    span {
+        overflow: auto;
+        font-style: italic;
+    }
+}
+
+.route-test .site-byline {
+    margin-top: @magicNumber * 16;
+}

@@ -35,7 +35,7 @@ p {
     margin-bottom: 1.75rem; /* 1.4 * 1.25em vår baseline */
 }
 
-/*responsitivity*/
+/* responsitivity */
 @media (min-width: 64em) {
     html {
         font-size: 112.5%;
@@ -57,11 +57,12 @@ p {
     overflow: auto;
 }
 
-/*.site-logo-text {
+/*
+.site-logo-text {
     padding: 2em;
     float: left;
     overflow: auto;
-}*/
+} */
 .region-header-col-2 {
     box-sizing: border-box;
     display: flex;
@@ -72,7 +73,7 @@ p {
     margin-bottom: 100px;
 }
 
-/* style for navbar*/
+/* style for navbar */
 .my-navbar li {
     list-style-type: none;
     display: inline-block;
@@ -81,7 +82,8 @@ p {
     color: black;
 }
 
-/*style for main*/
+
+/* style for main */
 .outer-wrap-main {
     background-color: #fffefc;
 }
@@ -91,20 +93,20 @@ p {
     width: 960px;
 }
 
-/*style to center flash image (dandelion)*/
+/* style to center flash image (dandelion) */
 .region-flash img {
     margin: auto;
     display: block;
 }
 
-/* style for row including clear fix*/
+/* style for row including clear fix */
 .row::after {
     content: "";
     display: inline-block;
     clear: both;
 }
 
-/*includes article and wrap sidebar / to display aligned */
+/* includes article and wrap sidebar / to display aligned */
 .row {
     display: flex;
     flex-direction: row;
@@ -112,7 +114,7 @@ p {
     justify-content: center;
 }
 
-/*.region-breadcrumb {
+/* .region-breadcrumb {
     float: left;
     text-align: left;
 }
@@ -128,12 +130,12 @@ p {
     text-decoration: none;
     float: left;
     text-align: left;
-}*/
+} */
 
 .next {
     float: right;
     text-align: right;
-    width: 50%
+    width: 50%;
 }
 
 .article {
@@ -147,13 +149,14 @@ p {
     padding-right: 5em;
     float: top;
 }
+
 .wrap-sidebar {
     float: top;
     width: 400px;
     clear: both;
 }
 
-/*style for portrait*/
+/* style for portrait */
 .figure {
     float: left;
     width: 300px;
@@ -165,7 +168,7 @@ figcaption {
     font-style: italic;
 }
 
-/* Style for byline*/
+/* Style for byline */
 .site-byline {
     float: left;
     border: 1px solid black;

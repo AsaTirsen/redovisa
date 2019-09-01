@@ -23,7 +23,7 @@ return [
                 //"css/kmom01.css",
                 //"css/kmom02.css",
                 //"css/kmom04.css"
-                "css/kmom05.css"
+                "css/kmom06-designelement.css"
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

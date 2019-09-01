@@ -4379,13 +4379,13 @@ template {
   font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQ.ttf) format('truetype');
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v11/If2RXTr6YS-zF4S-kcSWSVi_szLgiuQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Scheherazade';
   font-style: normal;
   font-weight: 400;
-  src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v15/YA9Ur0yF4ETZN60keViq1kQQsJms.ttf) format('truetype');
+  src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v17/YA9Ur0yF4ETZN60keViq1kQQsJms.ttf) format('truetype');
 }
 html {
   overflow-y: scroll;
@@ -5260,6 +5260,8 @@ span.site-logo-text a {
 .route-.figure {
   float: right;
   clear: both;
+  margin: 0;
+  padding: 0.1px;
 }
 .route-om .figure.figure {
   float: left;

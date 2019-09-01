@@ -28,4 +28,4 @@ ramverk, samt att bekanta sig med Markdown.
 
 Lägg till en representativ bild för kursen, enligt ditt egna val.
 
-[FIGURE src=img/aboutimg.jpg caption="Händer på keyboard."]
+[FIGURE src=img/aboutimgdb.jpg caption="Händer på keyboard."]

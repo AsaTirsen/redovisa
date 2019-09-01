@@ -1,0 +1,137 @@
+//Style using vertical grid
+// Default grid, change to fit your requirements.
+@columnWidth: 30;
+@gutterWidth: 10;
+@columns: 24;
+@gridType: "float"; // "flex"
+// Use % for fluid layout
+@totalWidth: 100% / @gridSystemWidth;
+@gridSystemWidth: @columns * (@columnWidth + @gutterWidth) * 1px;
+
+.row {
+    #desinax-vgrid.row();
+    margin-bottom: 12px;
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+      #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px); //wrapper for entire grid
+}
+
+// 2 and 3 column style
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+  //overflow: auto
+}
+
+.region-main {
+      margin-top: (@magicNumber * 5);
+    float: left;
+    overflow: auto;
+    min-height: (@magicNumber * 30);
+    //padding-left: 20%;
+    #desinax-vgrid.column(@columns * 3/4);
+    #desinax-vgrid.push(2);
+    &.has-sidebar {
+      #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right {
+      #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+      #desinax-vgrid.column(@columns - 10);
+    }
+}
+
+.region-sidebar-right {
+      #desinax-vgrid.push(1);
+    }
+
+    .region-sidebar-right,
+    .region-sidebar-left {
+      #desinax-vgrid.column(@columns * 1 / 4);
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+      #desinax-vgrid.column(@columns * 1 / 4 - 1);
+
+}
+
+p {
+    margin-bottom: @magicNumber * 2;
+    font-family: @fontFamilyBody;
+}
+
+p::selection {
+    background: #f4cabc;
+}
+
+h1, h2, h3 {
+    font-family: @fontFamilyHeadings;
+    border: none;
+}
+
+figcaption p {
+    border: none;
+    text-align: center;
+}
+
+.route- {
+        .article img {
+          border-radius: 50%;
+          border: 5px solid #333;
+          float: right;
+          height: 350px;
+          width: 270px;
+        }
+}
+
+.route-rapport-fargschema {
+    .figure {
+      float: left;
+    }
+    p {
+      clear: left;
+    }
+}
+
+.route-rapport-laddningstid {
+    .figure {
+      float: left;
+    }
+    p {
+      clear: left;
+    }
+}
+
+.route-blogg .region-main {
+    #desinax-vgrid.column(@columns);
+
+    .figure.right {
+        clear: right;
+        margin-left: 50px;
+        .figure.left {
+            clear: left;
+        }
+    }
+
+    p {
+      clear: left;
+    }
+    .text.left {
+      clear: right;
+    }
+}
+

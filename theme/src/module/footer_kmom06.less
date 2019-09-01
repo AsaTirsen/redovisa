@@ -1,0 +1,28 @@
+.outer-wrap-footer {
+    //background-color: @backgroundColorFooter;
+    background-image:
+            linear-gradient(
+                    #ccc9c3,
+                    #f4f4f3
+            );
+    color: @textColorFooter;
+}
+
+.region-footer {
+    #desinax-vgrid.push(1);
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns/3);
+}
+
+.site-footer {
+    text-align: center;
+    #desinax-vgrid.column(@columns/3);
+    #desinax-vgrid.push(@columns/3);
+}
+
+.block.site-footer a {
+    color: @textColorFooter;
+}
+
